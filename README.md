@@ -5,7 +5,7 @@ The Manga Reader App is a mobile application developed in Swift using UIKit that
 
 ## Screenshots
 
-<a href="https://imgur.com/IvD3w1L"> <img src="https://i.imgur.com/8nkUy3A.png" width="250" /> <a href="https://imgur.com/IvD3w1L"> <img src="https://i.imgur.com/B2WkdfE.png" width="250" /> <a href="https://imgur.com/IvD3w1L"><img src="https://i.imgur.com/ggEGUDI.png" width="250" /></a><a href="https://imgur.com/S8h1mkO"> <img src="https://i.imgur.com/S8h1mkO.png" width="250"/></a> <a href="https://imgur.com/0X4AeJ6"> <img src="https://i.imgur.com/EMCT8vE.png" width="250" /></a>
+<a href="https://imgur.com/IvD3w1L"> <img src="https://i.imgur.com/Dumh3VA.png" width="250" /> <a href="https://imgur.com/IvD3w1L"> <img src="https://i.imgur.com/RzOWPjA.png" width="250" /> <a href="https://imgur.com/IvD3w1L"> <img src="https://i.imgur.com/AHOZbX0.png" width="250" /> <a href="https://imgur.com/IvD3w1L"><img src="https://i.imgur.com/ggEGUDI.png" width="250" /></a><a href="https://imgur.com/S8h1mkO"> <img src="https://i.imgur.com/S8h1mkO.png" width="250"/></a> <a href="https://imgur.com/0X4AeJ6"> <img src="https://i.imgur.com/EMCT8vE.png" width="250" /></a>
 
 
 ## Features
