@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CarouselCellIdentifier2" id="gTV-IL-0wX" customClass="CarouselCell2" customModule="EZBook" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="128" height="190"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="128" height="190"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KTo-rL-Cad">
+                        <rect key="frame" x="0.0" y="0.0" width="128" height="190"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoClear" translatesAutoresizingMaskIntoConstraints="NO" id="XUp-J9-3dq">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="Aij-S4-ESF"/>
+                                    <constraint firstAttribute="height" constant="190" id="oag-Xa-6UT"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="customDarkness"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="XUp-J9-3dq" secondAttribute="bottom" id="AJm-Pi-lC4"/>
+                            <constraint firstAttribute="trailing" secondItem="XUp-J9-3dq" secondAttribute="trailing" id="U4B-Kj-T6W"/>
+                            <constraint firstItem="XUp-J9-3dq" firstAttribute="leading" secondItem="KTo-rL-Cad" secondAttribute="leading" id="aGs-qO-pjU"/>
+                            <constraint firstItem="XUp-J9-3dq" firstAttribute="top" secondItem="KTo-rL-Cad" secondAttribute="top" id="gRP-sW-CqR"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n90-DD-Sdy">
+                        <rect key="frame" x="10" y="155.5" width="108" height="14.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="n90-DD-Sdy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="3T7-29-i8I"/>
+                <constraint firstAttribute="bottom" secondItem="n90-DD-Sdy" secondAttribute="bottom" constant="20" id="7OJ-ZO-MEE"/>
+                <constraint firstAttribute="bottom" secondItem="KTo-rL-Cad" secondAttribute="bottom" id="QSz-R2-8Bd"/>
+                <constraint firstItem="KTo-rL-Cad" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dRI-0W-9WU"/>
+                <constraint firstAttribute="trailing" secondItem="KTo-rL-Cad" secondAttribute="trailing" id="lFT-lB-JPp"/>
+                <constraint firstItem="KTo-rL-Cad" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ojH-IM-LqK"/>
+                <constraint firstAttribute="trailing" secondItem="n90-DD-Sdy" secondAttribute="trailing" constant="10" id="rBr-Wc-pUg"/>
+            </constraints>
+            <connections>
+                <outlet property="coverImage" destination="XUp-J9-3dq" id="VXW-g2-L5m"/>
+                <outlet property="title" destination="n90-DD-Sdy" id="nHO-GA-mL7"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="110.49107142857143"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="logoClear" width="2000" height="1247"/>
+        <namedColor name="customDarkness">
+            <color red="0.090196078431372548" green="0.090196078431372548" blue="0.090196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

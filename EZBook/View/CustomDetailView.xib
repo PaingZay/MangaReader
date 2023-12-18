@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomDetailView" customModule="EZBook" customModuleProvider="target">
+            <connections>
+                <outlet property="scrollView" destination="kQx-pL-k3t" id="xOt-3w-mQT"/>
+                <outlet property="synopsis" destination="W9d-GP-RZc" id="94P-hg-a4l"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="412"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kQx-pL-k3t">
+                    <rect key="frame" x="0.0" y="0.0" width="360" height="412"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xa9-K3-aOt">
+                            <rect key="frame" x="0.0" y="0.0" width="360" height="395.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9d-GP-RZc" customClass="ActiveLabel" customModule="EZBook">
+                                    <rect key="frame" x="10" y="39" width="342" height="14"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Synopsis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Itz-tl-tIr">
+                                    <rect key="frame" x="10" y="10" width="86.5" height="24"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" name="customDarkness"/>
+                            <constraints>
+                                <constraint firstItem="Itz-tl-tIr" firstAttribute="leading" secondItem="xa9-K3-aOt" secondAttribute="leading" constant="10" id="O4u-ws-xTd"/>
+                                <constraint firstAttribute="bottom" secondItem="W9d-GP-RZc" secondAttribute="bottom" constant="342.5" id="nxT-Sk-Xpm"/>
+                                <constraint firstItem="W9d-GP-RZc" firstAttribute="top" secondItem="Itz-tl-tIr" secondAttribute="bottom" constant="5" id="oVW-1K-han"/>
+                                <constraint firstAttribute="trailing" secondItem="W9d-GP-RZc" secondAttribute="trailing" constant="8" id="qfN-dS-aYv"/>
+                                <constraint firstItem="W9d-GP-RZc" firstAttribute="leading" secondItem="Itz-tl-tIr" secondAttribute="leading" id="yyz-5p-EWe"/>
+                                <constraint firstItem="Itz-tl-tIr" firstAttribute="top" secondItem="xa9-K3-aOt" secondAttribute="top" constant="10" id="zhv-dy-WQB"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="xa9-K3-aOt" firstAttribute="leading" secondItem="kQx-pL-k3t" secondAttribute="leading" id="1dv-cn-FTk"/>
+                        <constraint firstAttribute="trailing" secondItem="xa9-K3-aOt" secondAttribute="trailing" id="50w-HY-BPJ"/>
+                        <constraint firstAttribute="bottom" secondItem="xa9-K3-aOt" secondAttribute="bottom" constant="10" id="QSJ-mM-7or"/>
+                        <constraint firstItem="xa9-K3-aOt" firstAttribute="top" secondItem="kQx-pL-k3t" secondAttribute="top" id="U9u-xd-eQV"/>
+                        <constraint firstItem="xa9-K3-aOt" firstAttribute="width" secondItem="kQx-pL-k3t" secondAttribute="width" multiplier="1.03333" constant="-12.000000000000057" id="hh7-nA-nQ6"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="cl5-Cm-WnX"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="AAl-ku-0IK"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="customDarkness"/>
+            <constraints>
+                <constraint firstItem="kQx-pL-k3t" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Bik-tI-gL6"/>
+                <constraint firstItem="kQx-pL-k3t" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="DO3-Pr-s4o"/>
+                <constraint firstItem="kQx-pL-k3t" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="rHU-kW-aLK"/>
+                <constraint firstItem="kQx-pL-k3t" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="s2z-T0-wEx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.68115942028987" y="92.410714285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="customDarkness">
+            <color red="0.090196078431372548" green="0.090196078431372548" blue="0.090196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
