@@ -5,11 +5,13 @@ The Manga Reader App is a mobile application developed in Swift using UIKit that
 
 ## Screenshots
 
-<a href="https://imgur.com/IvD3w1L"> #Animated Carousel using iCarousel and CoreAnimation <img src="https://i.imgur.com/YuDDIAu.png" width="250" /> <img src="https://i.imgur.com/RXIJlPJ.png" width="250" /> <img src="https://i.imgur.com/gSxbZ9S.png" width="250" /> <img src="https://i.imgur.com/6eIxMWZ.png" width="250" /> <a href="https://imgur.com/IvD3w1L"> <img src="https://i.imgur.com/ZWBI2d4.png" width="250" /> <a href="https://imgur.com/IvD3w1L"> <img src="https://i.imgur.com/8icLwul.png" width="250" /> <a href="https://imgur.com/IvD3w1L"> <img src="https://i.imgur.com/HNcPCGn.png" width="250"/></a> <a href="https://imgur.com/0X4AeJ6"></a> <img src="https://i.imgur.com/ggEGUDI.png" width="250" /></a><a href="https://imgur.com/S8h1mkO">
+<a href="https://imgur.com/IvD3w1L"> <img src="https://i.imgur.com/YuDDIAu.png" width="250" /> <img src="https://i.imgur.com/RXIJlPJ.png" width="250" /> <img src="https://i.imgur.com/gSxbZ9S.png" width="250" /> <img src="https://i.imgur.com/6eIxMWZ.png" width="250" /> <a href="https://imgur.com/IvD3w1L"> <img src="https://i.imgur.com/ZWBI2d4.png" width="250" /> <a href="https://imgur.com/IvD3w1L"> <img src="https://i.imgur.com/8icLwul.png" width="250" /> <a href="https://imgur.com/IvD3w1L"> <img src="https://i.imgur.com/HNcPCGn.png" width="250"/></a> <a href="https://imgur.com/0X4AeJ6"></a> <img src="https://i.imgur.com/ggEGUDI.png" width="250" /></a><a href="https://imgur.com/S8h1mkO">
 
 
 ## Features
+- Login with Google, Facebook and firebase authentication
 - Manga Catalog: Browse and search for manga series.
+- Access bookmarks
 - Reading Experience: Read manga chapters with smooth scrolling and intuitive controls.
 - Navigation: Navigate between manga chapters easily.
 - Customizable Settings: Adjust settings for a personalized reading experience.
